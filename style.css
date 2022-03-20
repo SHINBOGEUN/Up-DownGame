@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://dispatch.cdnser.be/wp-content/uploads/2017/12/20171207000821_google_co_kr_20171206_181303.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Satisfy', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    color: blue;
+    font-weight: 700;
+}
+.container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+
+#result-area {
+    width: 30vw;
+    height: 25vh;
+    
+    
+}
+#user-input {
+    background-color: white;
+}
+.form-control {
+    height: 60px;
+    font-size: 2.5vw;
+    margin-right: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .form-control{
+        font-size: 8vw;
+    }
+}
+.button-style {
+    height: 80px;
+    width: 130px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+}
